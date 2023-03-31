@@ -348,10 +348,19 @@ body {
         width: 101px;
 
     }
+    .popup {
+       margin: 70px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        width: 60%;
+        position: relative;
+        transition: all 5s ease-in-out;
+    } 
 
     .rules {
-        width: 120px;
-        height: 120px;
+        width: 216px;
+        height: 216px;
     }
 
     .my-res {

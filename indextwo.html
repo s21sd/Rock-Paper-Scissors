@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="img2/logo.svg">
+    <link rel="stylesheet" href="stylestwo.css">
+    <title>Rock, Paper, Scissors,Lizard and Spock</title>
+
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <!-- result div -->
+        <div class="result">
+            <img class="logo" src="img2/logo.svg">
+            <div class="score">
+
+                <div class="update-score-right">
+                    <img class="your" src="img2/smiley.jpg" alt="" width="45px" height="45px">
+                    <h1>Your</h1>
+                    <p class="score-board">0</p>
+                </div>
+
+                <div class="update-score-left">
+                    <img class="robo" src="img2/robosmily.jpg" alt="" width="50px" height="50px">
+                    <h1>Comp</h1>
+                    <p class="score-board-comp">0</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- second section for the game -->
+
+        <div class="game">
+
+            <button id="button1" class="button1" value="paper" onclick="startgame1()">
+                <img class="Paper" src="img2/paper.png" alt="Paper" />
+            </button>
+            <button id="button2" class="button2" value="rock" onclick="startgame2()">
+                <img class="rock" src="img2/stone.png" alt="rock" />
+            </button>
+            <button id="button3" class="button3" value="scissors" onclick="startgame3()">
+                <img class="scissors" src="img2/scissors.jpg" alt="scissors" />
+            </button>
+            <button id="button4" class="button4" value="lizard" onclick="startgame4()">
+                <img class="lizard" src="img2/lizard.png" alt="lizard" />
+            </button>
+            <button id="button5" class="button5" value="spock" onclick="startgame5()">
+                <img class="spock" src="img2/spock.jpg" alt="spock" />
+            </button>
+
+        </div>
+
+
+    </div>
+    <!-- Rules section -->
+    <div class="box">
+        <a class="button" href="#popup1">Rules</a>
+    </div>
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Rules</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <img class="rules" src="img2/903056_39aa9523c70a428684be9744580b0b1b_mv2.png" alt="" width="400px"
+                    height="400px">
+            </div>
+        </div>
+    </div>
+
+    <p class="my-res"></p>
+    <h1 class="footer">Make Your Move</h1>
+
+
+
+
+    <script src="scripttwo.js"></script>
+
+</body>
+
+</html>

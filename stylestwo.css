@@ -296,13 +296,13 @@ body {
 
     .game {
         position: absolute;
-        top: 200px;
+        top: 172px;
         left: 4px;
     }
 
     .update-score-left {
         position: absolute;
-        top: 15px;
+        top: -10px;
         right: 203px;
         background-color: aliceblue;
         width: 81px;
@@ -313,7 +313,7 @@ body {
 
     .update-score-right {
         position: absolute;
-        top: 15px;
+        top: -10px;
         left: -151px;
         background-color: aliceblue;
         width: 81px;
@@ -325,11 +325,11 @@ body {
 
     .button {
         position: absolute;
-        top: 90%;
-        right: 281px;
-        width: 73px;
+        top: 92%;
+        right: 274px;
+        width: 53px;
 
-        font-size: 2em;
+        font-size: 1em;
         padding: 10px;
         color: #120f0f;
         border: 2px solid white;
